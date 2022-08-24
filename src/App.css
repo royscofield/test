@@ -1,38 +1,134 @@
-.App {
-  text-align: center;
+.app
+{
+    display: flex;
+    justify-content: center;
+    background: rgb(92, 90, 90);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.container
+{
+    display: flex;
+    justify-content: center;
+    padding: 4rem ;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.profilePic
+{
+    width: 30%;
+    border-radius: 25px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+/* info style */
+
+span
+{
+    color: rgb(250, 93, 20);
 }
 
-.App-link {
-  color: #61dafb;
+
+.info
+{
+    padding: 10% 2rem;
+    /* background: rgb(155, 148, 148); */
+    /* box-sizing: border-box; */
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.info  h3
+{
+    text-transform: uppercase;
+    font-size: 20px;
+    color: #fff;
+}
+
+.info h1
+{
+    text-transform: uppercase;
+    font-size: 35px;
+    color: #fff;
+}
+
+.info h6
+{
+    font-size: 14px;
+    color: #fff;
+}
+
+.moreBtn
+{
+    padding: 15px 32px;
+    margin: 4px 2px;
+    font-size: 17px;
+    display: inline-block;
+    border: none;
+    background: rgb(250, 90, 24);
+    color: #fff;
+    font-family: 'Outfit';
+    border-radius: 25px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/* sidebar style */
+
+.sidebar
+{
+    /* display: flex; */
+    /* background: rgb(172, 134, 134); */
+    position: relative;
+    top: 20%;
+}
+
+.icons
+{
+    float: right;
+}
+
+.homeBtn
+{
+    position: relative;
+    padding: 15px 32px;
+    background: rgb(250, 90, 24);
+    border-radius: 25px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.home
+{
+    border: none;
+    color: #fff;
+    background-color: transparent;
+    font-family: 'Outfit';
+    font-size: 17px;
+    font-weight: bold;
+    padding: 0 2rem 0 0 ;
+    cursor: pointer;
+}
+
+.user
+{
+    padding: 15px 32px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.briefcase
+{
+    padding: 15px 32px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.envelope
+{
+    padding: 15px 32px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.message
+{
+    padding: 15px 32px;
+    color: #fff;
+    cursor: pointer;
 }
